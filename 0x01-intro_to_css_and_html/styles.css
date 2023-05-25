@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 590px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 240px;
+  background: tomato;
+  border: 1px solid #ffffff;
+  text-decoration: center;
+  color: #fff;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 240px;
+  background: #8f00ff;
+  border: 1px solid #ffffff;
+  color: #fff;
+}
+
+.box3 {
+  width: 350px;
+  height: 620px;
+  background: dodgerblue;
+  border: 1px solid #000;
+  margin: 100px auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* Responsive Design goes here! */
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.item {
+  background-color: #868e96;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .item {
+    background-color: #868e96;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .item-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+  }
+}
