@@ -1,0 +1,18 @@
+
+
+1.	The let is used when you want to change the assigned value of the variable at a later point, 
+and the const is used when you would not later have to change the assigned value of the variable.
+The const and let declaration means a container to store a defined value in a variable.
+Var is globally scoped and let and const is function scope.
+
+2.	To store information that can easily be referenced.
+
+3.	Using the single or double quote.
+4.	Yes
+
+5.	One is a string and the other is a number.
+
+6.	a. Declaration – creating a variable.
+    b. Redeclaration – Declaring a variable multiple times.
+    c. Assignment – used to assign a value to a variable for the first time. 
+    d. Reassignment – changes previous value of a variable to a new one 
